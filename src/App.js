@@ -40,14 +40,11 @@ import Login from './component/Rutering/Login';
 import Signup from './component/Rutering/Signup';
 import { useEffect, useState } from 'react';
 import Prectical from './component/test2/Prectical';
-<<<<<<< HEAD
 import Action from './ReduxCrud/Action';
 import A from './usecontex/A';
 import TestAction from './test 3/TestAction';
 import TestCart from './test 3/TestCart';
 import TestHeder from './test 3/TestHeder';
-=======
->>>>>>> c6471c7 (first)
 
 
 
@@ -138,14 +135,8 @@ function App() {
     // <Comment/>
     // <Curd/>
     // <Curdpr/>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <>
     {/* <BrowserRouter>
-=======
-    <>
-    <BrowserRouter>
->>>>>>> ecd51f2 (pr8)
     <Nevbar activeUser={activeUser}/>
     <Routes>
       <Route path="/" element={<Home/>}/>
@@ -155,7 +146,6 @@ function App() {
       <Route path="/student/addstudent" element={<AddStudent/>}/>
       <Route path="/login" element={<Login activeUser={activeUser} setActiveUser={setActiveUser}/>}/>
       <Route path="/signup" element={<Signup/>}/>
-<<<<<<< HEAD
 
       <Route path="*" element={<Page404/>}/>
     </Routes>
@@ -176,33 +166,6 @@ function App() {
     {/* <A/> */}
     </>
     // <Prectical/>
-=======
-    // <>
-    // <BrowserRouter>
-    // <Nevbar activeUser={activeUser}/>
-    // <Routes>
-    //   <Route path="/" element={<Home/>}/>
-    //   <Route path="/student" element={<Students/>}/>
-    //   <Route path="/student/edit/:id" element={<EditStudent/>}/>
-    //   <Route path="/student/view/:id" element={<StudentDetail/>}/>
-    //   <Route path="/student/addstudent" element={<AddStudent/>}/>
-    //   <Route path="/login" element={<Login activeUser={activeUser} setActiveUser={setActiveUser}/>}/>
-    //   <Route path="/signup" element={<Signup/>}/>
-
-    //   <Route path="*" element={<Page404/>}/>
-    // </Routes>
-    // </BrowserRouter>
-    // </>
-    <Prectical/>
->>>>>>> c6471c7 (first)
-=======
-
-      <Route path="*" element={<Page404/>}/>
-    </Routes>
-    </BrowserRouter>
-    </>
-    // <Prectical/>
->>>>>>> ecd51f2 (pr8)
   )
 
 

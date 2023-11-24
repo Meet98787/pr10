@@ -3,25 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-<<<<<<< HEAD
 import { Provider } from 'react-redux';
 import TestStore from './test 3/TestStore';
-=======
->>>>>>> c6471c7 (first)
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import'./bootstap/costam.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-<<<<<<< HEAD
+
     <Provider store={TestStore}>
     <App />
     </Provider>
     
-=======
-    <App />
->>>>>>> c6471c7 (first)
+
   </React.StrictMode>
 );
 
