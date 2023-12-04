@@ -45,6 +45,7 @@ import A from './usecontex/A';
 import TestAction from './test 3/TestAction';
 import TestCart from './test 3/TestCart';
 import TestHeder from './test 3/TestHeder';
+import Praction from './pr10/Praction';
 
 
 
@@ -150,20 +151,21 @@ function App() {
       <Route path="*" element={<Page404/>}/>
     </Routes>
     </BrowserRouter> */}
-    {/* <Action/> */}
+    <Action/>
+    {/* <Praction/> */}
     {/* test 3 */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
       <TestHeder/>
-    {/* <Nevbar activeUser={activeUser}/> */}
+
     <Routes>
       <Route path="/" element={<TestAction/>}/>
       <Route path="/cart" element={<TestCart/>}/>
 
       
     </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
   
-    {/* <A/> */}
+    
     </>
     // <Prectical/>
   )

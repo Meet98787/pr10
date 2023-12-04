@@ -29,9 +29,9 @@ body{
             width: fit-content;
         }
 
-        .btn {
+        /* .btn {
             border-radius: 0;
-        }
+        } */
 
         .img-thumbnail {
             border: none;
